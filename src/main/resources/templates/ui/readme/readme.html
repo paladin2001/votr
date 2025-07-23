@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Liptrill Training</title>
+</head>
+<body>
+<h1 th:text="${message}">Liptrill Traninig</h1>
+
+<form th:action="@{/start-liptrill}" method="post">
+    <button type="submit" th:text="${buttonText}">Start</button>
+</form>
+</body>
+</html>
