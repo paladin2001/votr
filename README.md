@@ -1,2 +1,2 @@
-# votr
+# vocal trainer
 vocal training
